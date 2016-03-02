@@ -1,0 +1,22 @@
+#!/bin/bash
+npmhas()  {
+  if [ ! -f ./package.json ]; then
+    echo "package.json not found"
+    return
+  fi
+
+  if  [ -z "$1" ]; then
+    echo "package name required"
+    return
+  fi
+
+  res=`cat package.json | grep $1`
+  if [ -z "$res" ]; then
+    echo "Package not found"
+  else
+    echo "Found package(s)"
+    echo "$res"
+  fi
+}
+
+alias npmhas=npmhas
