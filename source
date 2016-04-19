@@ -1,2 +1,4 @@
 #!/bin/bash
-source ~/.bash/npmhas
+source ~/.bash/scripts/npmhas
+source ~/.bash/scripts/npmwhich
+source ~/.bash/scripts/weather
