@@ -2,3 +2,4 @@
 source ~/.bash/scripts/npmhas
 source ~/.bash/scripts/npmwhich
 source ~/.bash/scripts/weather
+source ~/.bash/scripts/alias

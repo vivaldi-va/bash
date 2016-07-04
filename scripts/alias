@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "alias"
+alias gf="git fetch --prune"
